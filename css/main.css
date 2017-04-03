@@ -1,0 +1,48 @@
+#dataContainer {
+  background-color: #c0c0c0;
+  margin-top: 1.5em; }
+
+#dataContainer div {
+  padding: 5px;
+  height: 100px;
+  border-bottom: 2px dashed red; }
+  @media screen and (max-width: 768px) {
+    #dataContainer div {
+      height: auto;
+      text-align: center;
+      border-bottom: 3px dashed red; } }
+
+#dataContainer div:last-child {
+  border-bottom: none; }
+
+#dataContainer img {
+  height: 90px;
+  padding-right: 10px;
+  float: left; }
+  @media screen and (max-width: 768px) {
+    #dataContainer img {
+      float: none;
+      height: 200px; } }
+
+#dataContainer .name {
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-bottom: 0; }
+  @media screen and (max-width: 768px) {
+    #dataContainer .name {
+      font-size: 5em; } }
+
+#dataContainer p {
+  font-size: 0.9em; }
+  @media screen and (max-width: 768px) {
+    #dataContainer p {
+      margin-bottom: 0;
+      font-size: 1.2em; } }
+
+.container {
+  padding: 1.5em 0; }
+
+input {
+  height: 50px;
+  color: #fff;
+  font-weight: 600; }

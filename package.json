@@ -1,0 +1,15 @@
+{
+  "name": "interviewproject",
+  "version": "1.0.0",
+  "description": "interview project using html, scss, jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olga Rosado",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
